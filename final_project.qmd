@@ -58,7 +58,7 @@ As shown in @tbl-dataset-summary, the dataset is extremely imbalanced. In the tr
 
 The raw light curves also make direct comparison difficult. Flux magnitudes vary substantially across stars, and the curves themselves differ in shape and behavior. Some stars appear relatively smooth, while others show spikes, drift, oscillation, or other irregular patterns. The exoplanet-labeled class is also visually heterogeneous: some positive light curves show pronounced or repeated dips, while others are much less obvious by eye. Because of this, raw flux values alone are not enough. This is consistent with the broader Kepler setting, where high-precision photometric data are scientifically useful but still contain substantial observational complexity [@borucki2010].
 
-To summarize each light curve in an interpretable way, the later analysis first applies per-star normalization and then engineers features capturing **lower-tail dimming**, **dip frequency**, **dip duration**, **overall variability**, and **local smoothness or short-lag structure**. This allows the modeling pipeline to focus on relative light-curve behavior rather than absolute brightness scale.
+To summarize each light curve in an interpretable way, the later analysis first applies per-star normalization and then engineers features capturing lower-tail dimming, dip frequency, dip duration, overall variability, and local smoothness or short-lag structure. This allows the modeling pipeline to focus on relative light-curve behavior rather than absolute brightness scale.
 
 # Exploratory Data Analysis
 
